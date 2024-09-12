@@ -1,5 +1,5 @@
 void main(){
-  String namalengkap =  "Arif Prasojo";
+  String namalengkap =  "Arif_Prasojo";
   int NIM = 2241760100;
   String Sigma = "Sigma";
 

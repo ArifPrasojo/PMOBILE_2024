@@ -1,19 +1,21 @@
 void main() {
-  String test = "test2";
-  if (test == "test1") {
+  // Bagian pertama
+  String test1 = "test2";
+  if (test1 == "test1") {
     print("Test1");
-  } else if (test == "test2") {
+  } else if (test1 == "test2") {
     print("Test2");
   } else {
     print("Something else");
   }
 
-  if (test == "test2") print("Test2 again");
-
-  String testing = "true";
-  if (testing == "true") {
+  // Bagian kedua
+  String test2 = "true";
+  if (test2 == "true") {
     print("Kebenaran");
-  } else {
-    print("Kesalahan");
+  }
+
+  if (test2 == "test2") {
+    print("Test2 again");
   }
 }
